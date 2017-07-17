@@ -79,7 +79,14 @@
 7. `git tag -d <tag-name>`: to delete a local tag
 8. `git push origin :refs/tags/<tag-name>`: to delete a remote tag
 
+##### 11.Configure alias
 
+1. `git config --global alias.st status`
+2. `git config --global alias.co checkout`
+3. `git config --global alias.ci commit`
+4. `git config --global alias.br branch`
+5. `git config --global alias.unstage 'reset HEAD'`
+6. `git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
 
 
 
