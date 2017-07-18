@@ -34,7 +34,7 @@
 
 ##### 7.Add remote repository
 
-1. `git remmote add origin git@github.com:server-name:path/repo-name.git`
+1. `git remote add origin git@github.com:server-name:path/repo-name.git`
 
    `git remote add origin https://github.com/cicifang/learnGit.git`: 
 
